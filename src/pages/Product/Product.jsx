@@ -123,6 +123,7 @@ const Product = () => {
           <Price>RS {product.price}</Price>
           <AddContainer>
             <Button style={{ textDecoration: "none", color: "black" }} href={link}>BUY NOW</Button>
+            <Button style={{ textDecoration: "none", color: "black" }} href="/try">TRY NOW</Button>
           </AddContainer>
         </InfoContainer>
       </Wrapper>

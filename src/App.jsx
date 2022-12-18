@@ -7,6 +7,7 @@ import Order from './pages/Order/Order'
 import Product from './pages/Product/Product'
 import ProductPage from './pages/ProductsPage/ProductPage'
 import Register from './pages/Register/Register'
+import TryNow from './pages/TryNow/TryNow'
 
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
             <Route path='/products' element={<ProductPage />} />
             <Route path='/checkout' element={<Checkout />} />
             <Route path='/order' element={<Order />} />
+            <Route path='/try' element={<TryNow />} />
             <Route path='*' element={<><h1>404 Page Not Found</h1></>} />
           </Routes>
         </>
